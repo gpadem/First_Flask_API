@@ -56,7 +56,6 @@ tornado @ file:///C:/ci/tornado_1606924294691/work
 traitlets @ file:///home/ktietz/src/ci/traitlets_1611929699868/work
 typed-ast==1.4.2
 typing-extensions==3.7.4.3
-wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
 webencodings==0.5.1
 Werkzeug==1.0.1
 wincertstore==0.2
