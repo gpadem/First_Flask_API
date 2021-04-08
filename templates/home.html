@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+    <h1>My web collection</h1>
+    <p>Have a nice {{ day }}!</p>
+
+    <ul>
+      <li><a href="{{ url_for('movies_page') }}">List movies</a></li>
+    </ul>
+
+    <ul>
+        <li><a href="{{ url_for('multiply_page') }}">Multiplication</a></li>
+    </ul>
+
+    <ul>
+        <li><a href="{{ url_for('projects_page') }}">Projects</a></li>
+    </ul>
+{% endblock %}

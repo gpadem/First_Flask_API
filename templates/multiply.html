@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block title %}Multiply{% endblock %}
+{% block content %}
+    <h1 class="title">Do a multiplication!</h1>
+
+    <form action="" method="post" name="multiply">
+      <div class="field">
+        <label for="title" class="label">First number</label>
+        <div class="control">
+          <input type="number" name="First number" class="input" required="required"/>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="year" class="label">Second number</label>
+        <div class="control">
+          <input type="number" name="Second number" class="input" required="required"/>
+        </div>
+      </div>
+
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-primary is-small">Multiply</button>
+        </div>
+      </div>
+    </form>
+{% endblock %}
